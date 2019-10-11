@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: #f7eedf;
 }
 
 body {
@@ -11,10 +12,11 @@ body {
 
 h1 {
     margin-bottom: 8px;
-    
+    color: #050a30;
 }
 
 p {
     margin-top: 8px;
     margin-left: 18px;
+    color: #716258;
 }
