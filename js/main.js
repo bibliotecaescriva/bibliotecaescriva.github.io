@@ -1,10 +1,13 @@
 $(function() {
-
+  //aside começa escondido
   $('#aside1').hide();
   
+  //verifica atualização de telas
   $( window ).resize(function() {
     if ( parseInt($( window ).width()) <= 768) {
+      //aside começa escondido
       $('#aside1').hide();
+      //começa com a setinha personalizada
       $('a.toggleSidebar span.fas').removeClass('fa-angle-left');
       $('a.toggleSidebar span.fas').addClass('fa-angle-right');
       $(function(){
@@ -19,6 +22,7 @@ $(function() {
               }
           );
       });
+      //animação aside
       $('#aside1').css('width','250px');
       $('#aside1').css('height','1280px');
       $(document).off('click', 'a.toggleSidebar');
@@ -34,6 +38,7 @@ $(function() {
         }        
       });
     } else {
+      //aside começa escondido
       $('#aside1').hide();      
       $(function(){
         $("a.toggleSidebar").hover(
@@ -47,6 +52,7 @@ $(function() {
               }
           );
       }); 
+      //animação aside
       $('#aside1').css('width','215px');
       $(document).off('click', 'a.toggleSidebar');
       $(document).on('click', 'a.toggleSidebar', function() {
