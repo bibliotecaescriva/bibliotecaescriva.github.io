@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    background-color: #f7eedf;
+    background-color: #fdfaf0;
 }
 
 body {
@@ -132,9 +132,6 @@ a:hover {
         font-size: 8px;
         color: #808080;
     }
-
-
-
 }
 
 .logo {
@@ -316,5 +313,28 @@ div.sticky-top {
 }
 
 .card-body {
-    background-color: #f7eedf;
+    background-color: #fdfaf0;
+}
+
+.card-livro {
+    width: 200px;
+}
+
+@media (max-width: 442px) {
+    .card-livro {
+        width: 150px;
+    }
+    .card-livro .card-body {
+        padding: 10px 15px;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .card-livro .card-body h5 {
+        font-size: 18px;
+    }
+    .card-livro .card-body p {
+        font-size: 14px;
+    }
 }
