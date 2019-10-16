@@ -1,13 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Biblioteca Escrivá</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+  <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <title>Biblioteca Escrivá</title>
 </head>
 <body>
-    <h1>"É justo que muito custe, o que muito vale!"</h1>
-    <p>Santa Teresa D'Ávila</p>
-    <a href="./pages/home.html"><img src="img/seta1.png" alt=""></a>
+  <div class="conjunto">
+    <aside class="expandido" id="aside1">
+
+      <div>
+        <div class="row">
+          <img src="img/logo.png" alt="foto" class="img-fluid" />
+        </div>
+      </div>
+
+
+      <!-- <div class="pesquisa mt-5 mb-0" >
+
+
+        <form >
+         <input type="search" name="pesquisa" placeholder="Busca Item do Menu"> 
+       </form>
+     </div> -->
+
+
+     <nav>
+
+      <div>
+
+        <ul>
+
+          <li class="lista">
+            <a href="Inicio.html" >
+              inicio
+            </a>
+          </li>
+          <li class="lista">
+            <a href="#">
+              quem somos
+            </a>
+          </li>
+          <li class="lista">
+            <a href="#">
+              cadastrar
+            </a>
+          </li>
+          <li class="lista">
+            <a href="#">
+              contato
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+
+    </nav>
+  </aside>
+  <div class="col-1 sticky-top" id="setass">
+    <a href="#setass" class="toggleSidebar d-md-none">
+      <span class="fas fa-angle-left" aria-hidden="true"></span>
+      <span class="sr-only">Mostrar/Esconder barra lateral</span>
+    </a>
+  </div>
+</div>
+<header class="content">
+  <div class="left-header">
+    <img class="logo" src="./img/logo.png" alt="">
+    <nav class="nav">
+      <a href="#">inicio</a>
+      <a href="#">quem somos</a>
+      <a href="#">cadastrar</a>
+      <a href="#">contato</a>
+    </nav>
+  </div>
+</header>
+<!-- <h1>Teste</h1> -->
 </body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js" ></script>
+<script src="js/main.js"></script>
 </html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
+    <title>Biblioteca Escrivá</title>
+</head>
+<body>
+    <header class="content">
+        <img class="topo" src="./img/topo.png" alt="">
+        <div class="left-header">
+            <img src="./img/logo.png" alt="">
+            <nav>
+                <a href="#">teste</a>
+                <a href="#">teste</a>
+                <a href="#">teste</a>
+                <a href="#">teste</a>
+                <a href="#">teste</a>
+            </nav>
+        </div>
+    </header>
+    <h1>Teste</h1>
+</body>
+</html> -->
