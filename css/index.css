@@ -152,12 +152,13 @@ aside div img.suap {
     width: 72px;
 }
 
+aside div.row {
+    justify-content: center;
+}
+
 aside div.row img {
-    height:42px;
-    width: 42px;
-    border-radius: 36px;
-    position: relative;
-    left: 7%;
+    height: 200px;
+    width: 200px;
 }
 
 #aside2 div.row img {
