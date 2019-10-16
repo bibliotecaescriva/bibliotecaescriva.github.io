@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    background-color: #f7eedf;
+    background-color: #fdfaf0;
 }
 
 body {
@@ -14,6 +14,7 @@ header {
     display: flex;
     background: #321b10;
     justify-content: flex-end; 
+    min-height: 200px;
 }
 
 a {
@@ -104,7 +105,7 @@ a:hover {
         padding-top: 50px;
     }
     a span.fa-angle-right::before {
-        /* position: fixed; */
+        position: fixed;
         background-color: #321b10;
         /* height: 23px; */
         /* width: 35px; */
@@ -112,6 +113,7 @@ a:hover {
         border-radius: 0px 36px 36px 0px;
         color: #ffecc0;
         padding: 5px 10px 5px 5px;
+        margin-left: -11px;
     }
 
     a span.fa-angle-left:before {
@@ -130,9 +132,6 @@ a:hover {
         font-size: 8px;
         color: #808080;
     }
-
-
-
 }
 
 .logo {
@@ -307,4 +306,35 @@ div.sticky-top {
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
+}
+
+.card {
+    border: 1px solid #b0b4b9;
+}
+
+.card-body {
+    background-color: #fdfaf0;
+}
+
+.card-livro {
+    width: 200px;
+}
+
+@media (max-width: 442px) {
+    .card-livro {
+        width: 150px;
+    }
+    .card-livro .card-body {
+        padding: 10px 15px;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .card-livro .card-body h5 {
+        font-size: 18px;
+    }
+    .card-livro .card-body p {
+        font-size: 14px;
+    }
 }
