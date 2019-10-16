@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-size: 16px;
 }
 
 header {
@@ -90,18 +91,29 @@ header {
 /*A parte de codigi que botei (gerson)*/
 
     .toggleSidebar {
-        position: fixed;
-        background-color: red;
+        /* position: fixed; */
+        /* background-color: red; */
         padding-top: 50px;
     }
     a span.fa-angle-right::before {
-        position: fixed;
-        background-color: #a9a9a9;
-        height: 23px;
-        width: 35px;
-        left: 0;
+        /* position: fixed; */
+        background-color: #321b10;
+        /* height: 23px; */
+        /* width: 35px; */
+        /* left: 0; */
         border-radius: 0px 36px 36px 0px;
-        color: #fff;
+        color: #ffecc0;
+        padding: 5px 10px 5px 5px;
+    }
+
+    a span.fa-angle-left:before {
+        background-color: #321b10;
+        /* height: 23px; */
+        /* width: 35px; */
+        /* left: 0; */
+        border-radius: 0px 36px 36px 0px;
+        color: #ffecc0;
+        padding: 5px 11px 5px 5px;
     }
     span.email {
         font-size: 10px;
@@ -167,8 +179,8 @@ aside div.row span {
     font-size: 15px;
 }
 #aside1 {
-    background-color: #292929;
-    height:100%;
+    background-color: #303030;
+    height:100vh !important;
     padding: 20px;
     margin: 0px;
     float: left;
@@ -220,14 +232,13 @@ nav > ul > li > i {
 }
 li.lista {
     margin-top: 24px;
-    font-size: 0.5rem;
-    font-size:10px;
 }
 li.lista a {
-    color: #dedede;
+    color: #8d8d8d;
+    display: flex;
 }
 .lista a:hover {
-    color: #347b3e;
+    color: #ad5c3b;
     transition: 0.3s;
 }
 a:link {
@@ -282,7 +293,7 @@ div.sticky-top {
 
 .toggleSidebar span.fas {
     color: #666;
-    font-size: 110%;
+    font-size: 30px;
     padding-top: 48vh;
 }
 
