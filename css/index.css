@@ -16,6 +16,14 @@ header {
     justify-content: flex-end; 
 }
 
+a {
+    color: #fff;
+}
+a:hover {
+    color: #ad5c3b;
+    transition: 0.3s;
+}
+
 @media (min-width: 920px) {
 
     header {
@@ -129,10 +137,6 @@ header {
 
 .logo {
     width: 200px;
-}
-
-nav a {
-    color: #fff;
 }
 
 .topo {
