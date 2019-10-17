@@ -40,11 +40,11 @@ a:hover {
     text-align: center;
     order: 3;
 }
-#myFooter ul {
+/*#myFooter ul {
     list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
-}
+}*/
 #myFooter .row {
     margin-bottom: 60px;
 }
@@ -52,10 +52,10 @@ a:hover {
     margin-right: -15px;
     margin-left: -15px;
 }
-ol, ul {
+/*ol, ul {
     margin-top: 0;
     margin-bottom: 10px;
-}
+}*/
 
 /*redes sociais*/
 .fab {
