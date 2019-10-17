@@ -11,12 +11,14 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
+    justify-content: space-between;
 }
 
 header {
     display: flex;
     background: #321b10;
     justify-content: flex-end; 
+    order: 0;
 }
 
 a {
@@ -36,6 +38,7 @@ a:hover {
     color: white;
     padding-top: 30px;
     text-align: center;
+    order: 3;
 }
 #myFooter ul {
     list-style-type: none;
@@ -165,6 +168,10 @@ button, input, optgroup, select, textarea {
     text-align: center;
 }
 /*parte inferior*/
+
+.conjunto {
+    order: 1;
+}
 
 /*footer*/
 @media (min-width: 920px) {
