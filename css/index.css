@@ -8,6 +8,9 @@ body {
     flex-direction: column;
     margin: 0;
     font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
 }
 
 header {
@@ -29,21 +32,61 @@ a:hover {
 #myFooter {
     flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
-}
-#myFooter {
     background-color: #3c3d41;
     color: white;
     padding-top: 30px;
-}
-
-.footer-copyright p {
-    margin: 10px;
-    color: #ccc;
-}
-.footer-copyright {
     text-align: center;
 }
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+#myFooter .row {
+    margin-bottom: 60px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
+/*redes sociais*/
+.fab {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#myFooter .social-networks a {
+
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+
+}
+#myFooter div.container {
+
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+/*redes sociais*/
 /*botão*/
 .btn-default {
     color: #333;
@@ -113,6 +156,15 @@ button, input, optgroup, select, textarea {
     box-sizing: border-box;
 }
 /*botão*/
+
+/*parte inferior*/
+.footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+/*parte inferior*/
 
 /*footer*/
 @media (min-width: 920px) {
@@ -251,17 +303,6 @@ aside div.row img {
     height: 200px;
     width: 200px;
 }
-
-#aside2 div.row img {
-    height:32px;
-    width: 32px;
-    border-radius: 36px;
-    justify-content: center;
-    position: relative;
-    margin: 5px 0px -5px 0px ;
-
-}
-
 aside div.row span {
     background-color: #141414;
     border-radius: 36px 5px 5px 36px;
@@ -276,20 +317,9 @@ aside div.row span {
 }
 #aside1 {
     background-color: #303030;
-    height:100vh !important;
     padding: 20px;
     margin: 0px;
     float: left;
-}
-#aside2 {
-    height:100%;
-    width: 50px;
-    background-color: #292929;
-    height: 100%;
-    padding: 5px 0px 0px 15px;
-    margin: 0px;
-    float: left;
-    align-content: center;
 }
 .pesquisa input {
     border:none;
@@ -340,22 +370,6 @@ li.lista a {
 a:link {
     text-decoration:none;
 }
-.lista2 {
-    margin-left: 15px;
-    border-bottom: 1px solid #000;
-    padding: 1.5px 0px 1.5px 0px;
-}
-
-.lista2 i.fa-angle-right {
-    padding: 0px 0px 0px 120px;
-}
-.sair a {
-    color: #e74c3c;
-    margin-top: 24px;       
-}
-.sair {
-        margin-top: 24px;
-}
 nav ul {
     clear: both;
     display: block;
@@ -384,18 +398,8 @@ div.sticky-top {
     padding: 0;
     margin: 0;
 }
-
-
-
 .toggleSidebar span.fas {
     color: #666;
     font-size: 30px;
     padding-top: 48vh;
-}
-
-.fas {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
 }
